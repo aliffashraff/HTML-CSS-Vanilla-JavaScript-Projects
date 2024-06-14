@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <!-- Create an element to display the calculation. -->
+  <p class="js-output-calculation output-calculation"></p>
+
+  <p>
+    <button class="number-button" onclick="
+      insertCalculation('1')"
+    >1</button>
+
+    <button class="number-button" onclick="
+      insertCalculation('2')"
+    >2</button>
+
+    <button class="number-button" onclick="
+      insertCalculation('3')"
+    >3</button>
+    
+    <button class="operation-button" onclick="
+      insertCalculation(' + ')"
+    >&plus;</button>
+  </p>
+
+  <p>
+    <button class="number-button"  onclick="
+      insertCalculation('4')"
+    >4</button>
+
+    <button class="number-button"  onclick="
+      insertCalculation('5')"
+    >5</button>
+
+    <button class="number-button"  onclick="
+      insertCalculation('6')"
+    >6</button>
+
+    <button class="operation-button"  onclick="
+      insertCalculation(' - ')"
+    >&minus;</button>
+  </p>
+
+  <p>
+    <button class="number-button"  onclick="
+      insertCalculation('7')"
+    >7</button>
+
+    <button class="number-button"  onclick="
+      insertCalculation('8')"
+    >8</button>
+
+    <button class="number-button"  onclick="
+      insertCalculation('9')"
+    >9</button>
+
+    <button class="operation-button"  onclick="
+      insertCalculation(' * ')"
+    >&times;</button>
+  </p>
+
+  <p>
+    <button class="number-button"  onclick="
+      insertCalculation('0')"
+    >0</button>
+
+    <button class="number-button"  onclick="
+      insertCalculation('.')"
+    >.</button>
+
+    <button class="number-button"  onclick="
+      calculateTotal();"
+    >=</button>
+
+    <button class="operation-button"  onclick="
+      insertCalculation(' / ')"
+    >&divide;</button>
+  </p>
+
+  <p>
+    <button class="clear-button"  onclick="
+      clearCalculation()"
+    >Clear</button>
+
+    <button class="delete-button"  onclick="
+      deleteCalculation()"
+    >Delete</button>
+  </p>
+
+  <script src="calculator.js"></script>
+</body>
+</html>

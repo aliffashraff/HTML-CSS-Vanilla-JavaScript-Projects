@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.move-button:hover {
+  background-color: rgb(48, 47, 47);
+  width: 130px;
+  height: 130px;
+  .move-icon {
+    height: 60px;
+  }
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button,
+.reset-confirm-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.reset-score-button:hover,
+.auto-play-button:hover,
+.reset-confirm-button:hover {
+  font-weight: bold;
+}
+
+.reset-score-button:active,
+.auto-play-button:active,
+.reset-confirm-button:active {
+  background-color: rgb(201, 200, 200)
+}
+
+.reset-score-button {
+  margin-right: 10px;
+}
+
+.reset-confirm-button {
+  margin-left: 10px;
+}
+
+.shortcut-key li {
+  margin: 8px -20px;
+}
+
+.instructions p{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.instructions {
+  margin-top: 30px;
+}

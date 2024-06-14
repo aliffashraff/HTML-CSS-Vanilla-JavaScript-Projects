@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+.output-calculation {
+  color: white;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0px;
+}
+
+button {
+  border: none;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 1px rgb(98, 93, 93);
+  transition: box-shadow 0.1s ease;
+}
+
+button:active{
+  box-shadow: none;
+}
+
+.number-button {
+  font-size: 26px;
+  background-color: rgb(51, 51, 51);
+  transition: background-color 0.1s ease;
+}
+
+.number-button:hover {
+  font-weight: bold;
+  background-color: rgb(70, 67, 67);
+}
+
+.operation-button {
+  font-size: 25px;
+  background-color: rgb(254, 160, 10);
+  transition: background-color 0.1s ease;
+}
+
+.operation-button:hover {
+  font-weight: bold;
+  background-color: rgb(243, 173, 61);;
+}
+
+.clear-button, .delete-button{
+  font-size: 17px;
+  color: black;
+  background-color: white;
+  transition: background-color 0.1s ease;
+}
+
+.clear-button:hover, .delete-button:hover{
+  font-weight: bold;
+  background-color: rgb(237, 236, 236);
+}

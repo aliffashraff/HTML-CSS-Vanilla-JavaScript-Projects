@@ -1,0 +1,6 @@
+Touch Up
+
+1. Make it more proper like real calculator
+2. Do not display the operation symbol
+3. Can only click the operation one at a time
+4. clear display everytime operation symbol is clicked
