@@ -6,4 +6,4 @@
 4. YouTube Home Page Clone
 
 ## Instructions
-1. Open the .html file and you are good to go!
+1. Open the .html file and you are good to go
