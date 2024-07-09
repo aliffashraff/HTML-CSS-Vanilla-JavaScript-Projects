@@ -1,3 +1,0 @@
-Touch Up
-
-1. Make the menu expand when burger menu is clicked / when the page is bigger than 1200px 
